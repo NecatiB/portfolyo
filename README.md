@@ -126,30 +126,23 @@ Bu proje statik web sitesi olduğu için herhangi bir kurulum veya framework ger
 
 En kolay yöntem
 
-1.
-Projeyi indirin.
+1.Projeyi indirin.
 
-2.
-Klasörü açın.
+2.Klasörü açın.
 
-3.
-index.html dosyasına çift tıklayın.
+3.index.html dosyasına çift tıklayın.
 
-4.
-Site tarayıcıda açılır.
+4.Site tarayıcıda açılır.
 
 VS Code ile çalıştırma
 
 VS Code kullanıyorsanız Live Server eklentisini kurabilirsiniz:
 
-1.
-Projeyi VS Code ile açın.
+1.Projeyi VS Code ile açın.
 
-2.
-index.html dosyasına sağ tıklayın.
+2.index.html dosyasına sağ tıklayın.
 
-3.
-Open with Live Server seçeneğine tıklayın.
+3.Open with Live Server seçeneğine tıklayın.
 
 ☁️ GitHub'a Yükleme
 
@@ -170,34 +163,20 @@ KULLANICI_ADINIZ ve REPO_ADINIZ bölümlerini kendi GitHub bilgilerinizle deği�
 
 🌍 GitHub Pages ile Yayınlama
 
-1.
-GitHub repository sayfanı aç.
+1.GitHub repository sayfanı aç.
+2.Settings sekmesine gir.
+3.Sol menüden Pages seçeneğini aç.
+4.Build and deployment bölümünde:
 
-2.
-Settings sekmesine gir.
+•Source: Deploy from a branch
 
-3.
-Sol menüden Pages seçeneğini aç.
+•Branch: main
 
-4.
-Build and deployment bölümünde:
+•Folder: / (root )
 
-•
-Source: Deploy from a branch
+5.Save butonuna bas.
 
-•
-Branch: main
-
-•
-Folder: / (root )
-
-
-
-5.
-Save butonuna bas.
-
-6.
-Birkaç dakika sonra GitHub Pages bağlantın oluşturulur.
+6.Birkaç dakika sonra GitHub Pages bağlantın oluşturulur.
 
 📬 İletişim
 
