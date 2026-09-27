@@ -1,0 +1,241 @@
+!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Necati Bulduk — Bilgisayar Programcısı ve Yazılım Geliştirici portfolyosu." />
+  <title>Necati Bulduk — Yazılım Geliştirici</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- =========================
+       ÜST MENÜ
+       ========================= -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="brand">
+        <span class="brand-icon">&gt;_</span>
+        <span>Necati Bulduk<small class="mono">DEV &amp; IT SPECIALIST</small></span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">Hakkımda</a>
+        <a href="#experience">Deneyim &amp; Eğitim</a>
+        <a href="#skills">Yetenekler</a>
+        <a href="#projects">Projeler</a>
+        <a href="#contact">İletişim</a>
+      </nav>
+
+      <div style="display:flex;align-items:center;gap:10px;">
+        <a class="button button-small" href="Necati_Bulduk_CV.pdf" download>↓ CV'yi PDF İndir</a>
+        <button class="menu-button" id="menuButton" aria-label="Menüyü aç/kapat">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================
+         HERO / HAKKIMDA
+         ========================= -->
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Yeni Fırsatlara Açık • Junior Developer &amp; Content Creator</span>
+          <h1>Merhaba, Ben<br><span class="gradient-text">Necati Bulduk</span></h1>
+          <p class="hero-role mono"><span>&gt;</span> Bilgisayar Programcısı &amp; Yazılım Geliştirici</p>
+          <p class="hero-copy">
+            Kırşehir Ahi Evran Üniversitesi Bilgisayar Programcılığı mezunuyum. Yazılım geliştirme,
+            veritabanı yönetimi ve donanım/ağ altyapıları konularında pratik deneyime sahibim.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="Necati_Bulduk_CV.pdf" download>↓ CV'yi PDF İndir</a>
+            <a class="button button-secondary" href="#contact">✉ İletişime Geç</a>
+            <button class="button button-secondary" onclick="copyText('bulduknecati726@gmail.com', this)">⧉ E-postayı Kopyala</button>
+          </div>
+
+          <div class="socials mono">
+            <span>SOSYAL PROFİLLER:</span>
+            <a href="https://github.com/NecatiB" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/necati-bulduk-b83a1843a" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          </div>
+        </div>
+
+        <aside class="about-card" id="about">
+          <div class="terminal-head">
+            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            <span class="terminal-title mono">about_necati.ts</span>
+            <span style="margin-left:auto;color:var(--cyan-light);">Aktif Odak</span>
+          </div>
+          <h3 class="mono">// Hakkımda</h3>
+          <p>
+            Teknolojiye ve sürekli öğrenmeye olan merakımla, yazılım süreçlerinde yapay zeka araçlarını
+            etkin şekilde kullanarak hızlı ve verimli çözümler üretiyorum. Yazılımın yanında görsel tasarım
+            ve içerik üretimiyle ilgileniyor, backend ve sistem mimarilerinde kendimi geliştiriyorum.
+          </p>
+          <div class="quote"><b style="color:var(--cyan-light);font-style:normal;">Hedefim:</b> Modern yazılım ekosisteminde, veritabanı mimarilerinde ve yapay zeka destekli geliştirme süreçlerinde değer üretmek.</div>
+          <div class="status-grid">
+            <div class="status"><small>Askerlik Durumu</small><b>Tecilli (31/12/2032)</b></div>
+            <div class="status"><small>Sürücü Belgesi</small><b>B Sınıfı</b></div>
+            <div class="status"><small>İngilizce</small><b>Orta Seviye (B1)</b></div>
+            <div class="status"><small>Mesleki İngilizce</small><b>Teknik Terminoloji</b></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- =========================
+         DENEYİM & EĞİTİM
+         ========================= -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Kariyer Yolculuğu</span>
+          <h2>Eğitim &amp; <span class="gradient-text">Deneyim Zaman Çizelgesi</span></h2>
+          <p class="muted">Akademik temellerimi, bilgi işlem stajımı ve uzaktan eğitim içerik destek deneyimimi kronolojik olarak inceleyebilirsiniz.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-icon">💼</div>
+            <div class="card timeline-card">
+              <span class="tag">Kurumsal Altyapı &amp; Destek</span>
+              <h3>Bilgi İşlem Stajyeri</h3>
+              <h4>Çevre, Şehircilik ve İklim Değişikliği İl Müdürlüğü</h4>
+              <p class="muted">Kurum içi bilgi işlem süreçlerine, donanım bakımına ve ağ altyapı desteğine katkı sağladım.</p>
+              <ul>
+                <li>Bilgisayar donanım arızalarının tespiti ve sistem kurulumları</li>
+                <li>Yerel ağ bağlantıları ve teknik destek operasyonları</li>
+                <li>Kurumsal kullanıcı taleplerine yerinde destek</li>
+              </ul>
+              <div class="tag-row"><span class="tag">Donanım Bakımı</span><span class="tag">Ağ Altyapısı</span><span class="tag">Teknik Destek</span></div>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-icon">💼</div>
+            <div class="card timeline-card">
+              <span class="tag">E-Öğrenme &amp; Dijital Medya</span>
+              <h3>Sistem &amp; İçerik Destek Personeli</h3>
+              <h4>İŞKUR - UZEM (Uzaktan Eğitim Merkezi)</h4>
+              <p class="muted">Uzaktan eğitim süreçlerinde sistem takibi, kullanıcı desteği ve dijital içerik üretimi yaptım.</p>
+              <ul>
+                <li>Uzaktan eğitim sisteminin canlı takibi ve kullanıcı desteği</li>
+                <li>Canva ve Adobe Photoshop ile afiş/görsel tasarımı</li>
+                <li>Eğitim videolarının kurgulanması ve düzenlenmesi</li>
+              </ul>
+              <div class="tag-row"><span class="tag">Canva</span><span class="tag">Photoshop</span><span class="tag">Video Edit</span></div>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-icon">🎓</div>
+            <div class="card timeline-card">
+              <span class="tag">Yükseköğretim — Mezun</span>
+              <h3>Bilgisayar Programcılığı</h3>
+              <h4>Kırşehir Ahi Evran Üniversitesi — Meslek Yüksekokulu</h4>
+              <p class="muted">Algoritmalar, nesne yönelimli programlama, veritabanı ve web geliştirme temelleri üzerine eğitim aldım.</p>
+              <ul>
+                <li>C#, C++, Java, PHP ve Python ile programlama</li>
+                <li>SQL, MySQL ve ilişkisel veritabanı yönetimi</li>
+                <li>Yazılım yaşam döngüsü ve proje geliştirme pratiği</li>
+              </ul>
+              <div class="tag-row"><span class="tag">C#</span><span class="tag">SQL / MySQL</span><span class="tag">Algoritmalar</span></div>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-icon">🌐</div>
+            <div class="card timeline-card">
+              <span class="tag">Mesleki İngilizce</span>
+              <h3>Lise Eğitimi — Yabancı Dil Bölümü</h3>
+              <h4>11-12. sınıf yabancı dil ağırlıklı eğitim</h4>
+              <p class="muted">Yazılım dünyasında teknik dokümantasyon okumayı ve bilişim terminolojisini takip etmeyi destekleyen İngilizce eğitimi.</p>
+              <ul>
+                <li>Mesleki İngilizce kapsamında yazılım ve bilişim terminolojisi</li>
+                <li>Teknik dokümantasyon okuma-anlama</li>
+                <li>İngilizce seviyesi: B1 — Orta Seviye</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         YETENEKLER
+         ========================= -->
+    <section class="section" id="skills" style="background:var(--bg-soft);">
+      <div class="container">
+        <div class="section-heading center">
+          <span class="eyebrow">Teknik Donanım &amp; Araçlar</span>
+          <h2>Uzmanlıklar &amp; <span class="gradient-text">Yetenek Seti</span></h2>
+          <p class="muted">Yazılım dillerinden veritabanı yönetimine, yapay zeka araçlarından görsel tasarıma kadar aktif kullandığım yetkinlikler.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="card skill-card"><h3>💻 Programlama Dilleri</h3><p>Masaüstü, backend ve web geliştirme</p><div class="skill-line"><b>C#</b><span class="level">Yetkin</span></div><div class="skill-line"><b>C++</b><span class="level">Orta</span></div><div class="skill-line"><b>Python</b><span class="level">Orta</span></div><div class="skill-line"><b>Java / JavaScript / PHP</b><span class="level">Pratik</span></div></article>
+          <article class="card skill-card"><h3>🗄️ Veritabanı &amp; Altyapı</h3><p>Veri modeli, SQL ve teknik operasyon</p><div class="skill-line"><b>SQL / MySQL</b><span class="level">Yetkin</span></div><div class="skill-line"><b>phpMyAdmin</b><span class="level">Yetkin</span></div><div class="skill-line"><b>Ağ Altyapısı</b><span class="level">Pratik</span></div><div class="skill-line"><b>Donanım Bakımı</b><span class="level">İleri</span></div></article>
+          <article class="card skill-card"><h3>⚙️ Geliştirme &amp; AI</h3><p>Modern geliştirme iş akışları</p><div class="skill-line"><b>Git &amp; GitHub</b><span class="level">Yetkin</span></div><div class="skill-line"><b>VS Code / Visual Studio</b><span class="level">Yetkin</span></div><div class="skill-line"><b>Prompt Engineering</b><span class="level">İleri</span></div><div class="skill-line"><b>AI-Assisted Development</b><span class="level">İleri</span></div></article>
+          <article class="card skill-card"><h3>🎨 Tasarım &amp; Medya</h3><p>Görsel iletişim ve içerik üretimi</p><div class="skill-line"><b>Adobe Photoshop</b><span class="level">Yetkin</span></div><div class="skill-line"><b>Canva</b><span class="level">İleri</span></div><div class="skill-line"><b>Video Kurgu &amp; Edit</b><span class="level">Yetkin</span></div><div class="skill-line"><b>Adobe Dreamweaver</b><span class="level">Temel</span></div></article>
+        </div>
+
+        <div class="ai-banner"><div><strong>Yapay Zeka Destekli Geliştirme</strong><p>LLM araçlarını ve Prompt Engineering tekniklerini kodlama, hata ayıklama ve optimizasyon süreçlerine entegre ediyorum.</p></div><span class="tag">AI + Clean Code</span></div>
+      </div>
+    </section>
+
+    <!-- =========================
+         PROJELER
+         ========================= -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Çözümler &amp; Çalışmalar</span>
+          <h2>Öne Çıkan <span class="gradient-text">Projeler</span></h2>
+          <p class="muted">Akademik ve kurumsal tecrübeler ışığında geliştirilmiş sistem, içerik ve yazılım çözümü fikirleri.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="card project"><div><span class="tag">Sistem &amp; Veritabanı</span><h3>Kurumsal Bilgi İşlem Destek Çözümü</h3><p>Donanım arıza takibi, parça değişim geçmişi ve ağ adresleme kayıtlarını tutan sistem modeli.</p><ul><li>Donanım kayıtlarının veritabanında saklanması</li><li>Kullanıcı ve birim bazlı destek akışı</li></ul></div><div class="project-bottom"><span class="tag">C#</span> <span class="tag">SQL</span> <span class="tag">Ağ Yönetimi</span></div></article>
+          <article class="card project"><div><span class="tag">E-Öğrenme &amp; Medya</span><h3>UZEM Dijital Eğitim İçerikleri</h3><p>Uzaktan eğitim süreçleri için bilgilendirici afişler, video içerikleri ve kullanıcı destek rehberleri.</p><ul><li>Canva ve Photoshop ile görsel tasarım</li><li>Eğitim video kurgusu ve düzenleme</li></ul></div><div class="project-bottom"><span class="tag">Photoshop</span> <span class="tag">Canva</span> <span class="tag">Video Edit</span></div></article>
+          <article class="card project"><div><span class="tag">Frontend &amp; UI/UX</span><h3>Modern Portfolyo Web Sitesi</h3><p>Responsive koyu tema, dikey zaman çizgisi, beceri kartları ve CV indirme özelliğine sahip kişisel site.</p><ul><li>Mobil uyumlu ve erişilebilir tasarım</li><li>Temiz ve yorumlu HTML/CSS/JS yapısı</li></ul></div><div class="project-bottom"><span class="tag">HTML</span> <span class="tag">CSS</span> <span class="tag">JavaScript</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         İLETİŞİM
+         ========================= -->
+    <section class="section" id="contact" style="background:var(--bg-soft);">
+      <div class="container">
+        <div class="card contact-box">
+          <span class="eyebrow">İletişim &amp; Birlikte Çalışma</span>
+          <h2>Bir Projeniz veya<br><span class="gradient-text">İş Fırsatınız mı Var?</span></h2>
+          <p>Yazılım geliştirme, veritabanı, donanım veya dijital içerik üretimi pozisyonları için iletişime geçebilirsiniz.</p>
+
+          <div class="contact-links">
+            <div class="contact-link"><div><small>E-POSTA</small><b>bulduknecati726@gmail.com</b></div><button class="button button-small" onclick="copyText('bulduknecati726@gmail.com', this)">Kopyala</button></div>
+            <div class="contact-link"><div><small>TELEFON</small><b>0505 053 06 40</b></div><button class="button button-small" onclick="copyText('05050530640', this)">Kopyala</button></div>
+          </div>
+
+          <div class="contact-actions">
+            <a class="button button-primary" href="Necati_Bulduk_CV.pdf" download>↓ CV'yi PDF İndir</a>
+            <a class="button button-secondary" href="mailto:bulduknecati726@gmail.com?subject=Portfolyo%20Üzerinden%20İletişim">✉ E-posta Gönder</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© 2026 Necati Bulduk — Bilgisayar Programcısı &amp; Yazılım Geliştirici</span>
+      <div class="footer-socials"><a href="https://github.com/NecatiB" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/necati-bulduk-b83a1843a" target="_blank" rel="noreferrer">LinkedIn</a></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
