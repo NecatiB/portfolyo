@@ -1,70 +1,157 @@
-Necati Bulduk — Kişisel Portfolyo
+<div align="center">
 
-Modern, karanlık temalı ve mobil uyumlu kişisel portfolyo web sitesi.
-Bu proje, Necati Bulduk'un yazılım geliştirme, veritabanı yönetimi, bilgi işlem altyapısı, yapay zeka destekli geliştirme ve dijital içerik üretimi alanlarındaki deneyimlerini tanıtmak için hazırlanmıştır.
+👋 Merhaba, Ben Necati Bulduk
 
-Özellikler
-•Karanlık ve modern yazılımcı teması
-•Mobil, tablet ve masaüstü uyumlu responsive tasarım
-•Giriş ve Hakkımda bölümü
-•Eğitim ve deneyim zaman çizelgesi
-•Teknik beceriler bölümü
-•Öne çıkan projeler bölümü
-•GitHub ve LinkedIn bağlantıları
-•E-posta ve telefon kopyalama butonları
-•PDF CV indirme butonu
-•Mesleki İngilizce bilgisi
-•Harici framework veya backend zorunluluğu yok
+💻 Bilgisayar Programcısı & Yazılım Geliştirici
 
-Kullanılan Teknolojiler
-•HTML5
-•CSS3
-•Vanilla JavaScript
-•JSON
-•Google Fonts
-
-Bu proje React, Vite, PHP veya Python gerektirmez. Statik web sitesi olarak çalışır.
-Dosya Yapısı
-├── index.html
-├── style.css
-├── script.js
-├── data.json
-├── Necati_Bulduk_CV.pdf
-└── README.md
-
-
-Dosyaların Görevleri
-
-| Dosya | Açıklama |
-| `index.html` | Sitenin ana HTML sayfası |
-| `style.css` | Renkler, responsive tasarım ve tüm görsel stiller |
-| `script.js` | Mobil menü, scroll efekti ve kopyalama fonksiyonları |
-| `data.json` | Kişisel iletişim ve profil bilgileri |
-| `Necati_Bulduk_CV.pdf` | Portfolyodaki CV indirme butonunun kullandığı PDF |
+<p>
+<a href="https://github.com/NecatiB">
+    <img src="https://img.shields.io/badge/GitHub-NecatiB-181717?style=for-the-badge&logo=github" alt="GitHub" />
+  </a>
+  <a href="https://www.linkedin.com/in/necati-bulduk-b83a1843a">
+    <img src="https://img.shields.io/badge/LinkedIn-Necati%20Bulduk-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
+  </a>
+  <a href="mailto:bulduknecati726@gmail.com">
+    <img src="https://img.shields.io/badge/E--posta-İletişime%20Geç-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-posta" />
+  </a>
+</p> <p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white" alt="JSON" />
+  <img src="https://img.shields.io/badge/Responsive-Design-06B6D4?style=flat-square" alt="Responsive Design" />
+</p> </div>
 
 
 
 
-Bilgisayarda Çalıştırma
+🌐 Proje Hakkında
 
-Herhangi bir kurulum gerekmez.
+Bu proje, Necati Bulduk için hazırlanmış modern, karanlık temalı ve mobil uyumlu kişisel portfolyo web sitesidir.
 
-1.Projeyi indirin veya klonlayın:
+Portfolyo; yazılım geliştirme, veritabanı yönetimi, bilgi işlem altyapısı, yapay zeka destekli geliştirme ve dijital içerik üretimi alanlarındaki deneyimleri sade ve profesyonel bir arayüzle sunar.
 
-git clone https://github.com/KULLANICI_ADINIZ/REPO_ADINIZ.git
+<div align="center">
+
+📌 Proje Türü
+🎨 Tasarım
+📱 Uyumluluk
+⚡ Çalışma Şekli
+Kişisel Portfolyo
+Dark Mode
+Responsive
+Statik Web
 
 
 
-1.Proje klasörünü açın.
-2.index.html dosyasına çift tıklayın.
-3.Site tarayıcıda açılır.
-4.Güncelleme yaptıktan sonra tarayıcıda F5 tuşuna basarak sayfayı yenileyin.
 
-İsterseniz VS Code üzerinde Live Server eklentisiyle de çalıştırabilirsiniz.
+</div>
 
-GitHub'a Yükleme
+✨ Özellikler
 
-GitHub üzerinde yeni bir repository oluşturduktan sonra terminalde proje klasöründe şu komutları çalıştırın:
+<table>
+<tr>
+    <td width="50%">
+      <h3>🎨 Modern Tasarım</h3>
+      <p>Karanlık tema, cyan/neon renkler, cam efektli kartlar ve modern tipografi.</p>
+    </td>
+    <td width="50%">
+      <h3>📱 Responsive Yapı</h3>
+      <p>Telefon, tablet ve masaüstü ekranlarına uyumlu esnek tasarım.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>🧭 Dikey Zaman Çizgisi</h3>
+      <p>Eğitim ve deneyim geçmişini kronolojik olarak gösteren timeline yapısı.</p>
+    </td>
+    <td width="50%">
+      <h3>📄 PDF CV İndirme</h3>
+      <p>Portfolyo üzerinden tek tıklamayla CV indirme özelliği.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>📋 Kopyalama Butonları</h3>
+      <p>E-posta ve telefon numarasını tek tıkla panoya kopyalama özelliği.</p>
+    </td>
+    <td width="50%">
+      <h3>🧠 AI Destekli Geliştirme</h3>
+      <p>Prompt Engineering ve yapay zeka destekli yazılım geliştirme vurgusu.</p>
+    </td>
+  </tr>
+</table>
+
+🛠️ Kullanılan Teknolojiler
+
+<div align="center">
+
+Teknoloji
+Kullanım Alanı
+HTML5
+Sayfa yapısı ve semantik içerik
+CSS3
+Karanlık tema, animasyonlar ve responsive tasarım
+JavaScript
+Mobil menü, scroll efekti ve kopyalama işlemleri
+JSON
+Kişisel bilgilerin düzenli veri yapısı
+Google Fonts
+Plus Jakarta Sans ve JetBrains Mono yazı tipleri
+
+
+
+
+</div>
+
+📂 Dosya Yapısı
+
+Plain Text
+
+
+Necati-Bulduk-Yayinlanabilir-Site/
+│
+├── index.html              # Ana sayfa
+├── style.css               # Tasarım ve responsive stiller
+├── script.js               # Etkileşimli JavaScript kodları
+├── data.json               # Kişisel bilgi verileri
+├── Necati_Bulduk_CV.pdf    # İndirilebilir CV dosyası
+└── README.md               # Proje dokümantasyonu
+
+
+
+🚀 Bilgisayarda Çalıştırma
+
+Bu proje statik web sitesi olduğu için herhangi bir kurulum veya framework gerektirmez.
+
+En kolay yöntem
+
+1.
+Projeyi indirin.
+
+2.
+Klasörü açın.
+
+3.
+index.html dosyasına çift tıklayın.
+
+4.
+Site tarayıcıda açılır.
+
+VS Code ile çalıştırma
+
+VS Code kullanıyorsanız Live Server eklentisini kurabilirsiniz:
+
+1.
+Projeyi VS Code ile açın.
+
+2.
+index.html dosyasına sağ tıklayın.
+
+3.
+Open with Live Server seçeneğine tıklayın.
+
+☁️ GitHub'a Yükleme
 
 Bash
 
@@ -78,49 +165,86 @@ git push -u origin main
 
 
 
-KULLANICI_ADINIZ ve REPO_ADINIZ bölümlerini kendi GitHub bilgilerinizle değiştirin.
 
-GitHub Pages ile Yayınlama
+KULLANICI_ADINIZ ve REPO_ADINIZ bölümlerini kendi GitHub bilgilerinizle değiştirmeyi unutmayın.
 
-1.GitHub repository'nizi açın.
-2.Settings sekmesine girin.
-3.Sol menüden Pages seçeneğine tıklayın.
-4.Build and deployment bölümünde:
-•Source: Deploy from a branch
-•Branch: main
-•Folder: / (root )
-5.Save butonuna basın.
-6.Birkaç dakika sonra GitHub Pages adresiniz oluşur.
+🌍 GitHub Pages ile Yayınlama
 
-Kişisel Bilgileri Güncelleme
+1.
+GitHub repository sayfanı aç.
 
-İletişim bilgilerini değiştirmek için öncelikle index.html içindeki ilgili bölümleri düzenleyin:
-•E-posta adresi
-•Telefon numarası
-•GitHub adresi
-•LinkedIn adresi
-•CV dosya adı
+2.
+Settings sekmesine gir.
 
-Ayrıca güncel PDF CV dosyasını aynı klasöre koyun ve dosya adının HTML içindeki bağlantıyla aynı olduğundan emin olun:
+3.
+Sol menüden Pages seçeneğini aç.
 
-HTML
-<a href="Necati_Bulduk_CV.pdf" download>
-  CV'yi PDF İndir
-</a>
+4.
+Build and deployment bölümünde:
+
+•
+Source: Deploy from a branch
+
+•
+Branch: main
+
+•
+Folder: / (root )
 
 
 
-İletişim
+5.
+Save butonuna bas.
 
-•Ad Soyad: Necati Bulduk
+6.
+Birkaç dakika sonra GitHub Pages bağlantın oluşturulur.
 
-•E-posta: bulduknecati726@gmail.com
+📬 İletişim
 
-•GitHub: github.com/NecatiB
+<div align="center">
 
-•LinkedIn: linkedin.com/in/necati-bulduk-b83a1843a
+Platform
+Bağlantı
+📧 E-posta
+bulduknecati726@gmail.com
+🐙 GitHub
+github.com/NecatiB
+💼 LinkedIn
+Necati Bulduk
+📞 Telefon
+0505 053 06 40
 
-Lisans
+
+
+
+</div>
+
+📊 GitHub Profil Kartları
+
+İstersen kendi GitHub profil README dosyana aşağıdaki kartları da ekleyebilirsin:
+
+Plain Text
+
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=NecatiB&show_icons=true&theme=tokyonight )
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NecatiB&layout=compact&theme=tokyonight )
+
+
+
+📌 Not
+
+Bu proje PHP veya Python gerektirmez. Statik HTML, CSS, JavaScript ve JSON dosyalarıyla çalışır.
+
+📄 Lisans
 
 Bu proje kişisel portfolyo amacıyla hazırlanmıştır.
+
+<div align="center">
+
+⭐ Projeyi beğendiysen GitHub'da yıldız bırakmayı unutma!
+
+© 2026 Necati Bulduk
+
+</div>
 
