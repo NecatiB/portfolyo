@@ -223,6 +223,8 @@ Bu proje kişisel portfolyo amacıyla hazırlanmıştır.
 
 ⭐ Projeyi beğendiysen GitHub'da yıldız bırakmayı unutma!
 
+LivePortfolio: https://necatib.github.io/portfolyo/
+
 © 2026 Necati Bulduk
 
 </div>
